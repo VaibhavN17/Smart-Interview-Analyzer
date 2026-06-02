@@ -1,0 +1,53 @@
+# Backend-specific .gitignore for FastAPI (Python)
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+
+# Environments
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Migrations
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Database
+*.sqlite3
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+
+# MyPy / caches
+.mypy_cache/
+.pytest_cache/
+
+# Secrets and keys
+*.pem
+
